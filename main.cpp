@@ -28,7 +28,7 @@ int main() {
 
     // Erstelle Vehicle Instaz mit Startgeschwindigkeit 13,89 m/s
     Vehicle Polo(13.89f);
-    int testgit = 1;
+    
     // Initialisierung der Linien
     std::vector<TrackCoordinate> innerLine = { {100, 100}, {1100, 100}, };
     std::vector<TrackCoordinate> middleLine = { {100, 130}, {1100, 130} };
