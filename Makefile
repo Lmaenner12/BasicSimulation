@@ -1,7 +1,7 @@
 CXX := g++
 
 CXXFLAGS := -std=c++11 -Wall -Werror -Wextra -pedantic -O3 -IC:/path/to/SFML/include	# For Windows Users: Enter the Path to the SFML/include directory like following: -IC:/path/to/SFML/include
-SFMLFLAGS := -IC:/path/to/SFML/lib -lsfml-graphics -lsfml-window -lsfml-system		# For Windows Users: Enter the Path to the SFML/lib directory like following: -LC:/path/to/SFML/lib
+SFMLFLAGS := -LC:/path/to/SFML/lib -lsfml-graphics -lsfml-window -lsfml-system		# For Windows Users: Enter the Path to the SFML/lib directory like following: -LC:/path/to/SFML/lib
 
 TARGET := main
 
