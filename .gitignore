@@ -1,0 +1,85 @@
+# Compiled object files
+*.o
+*.obj
+*.lo
+*.lai
+*.slo
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Executable files
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+main
+
+# Debug files
+*.dSYM/
+*.stackdump
+
+# SFML Build files
+cmake-build-debug/
+cmake-build-release/
+build/
+bin/
+lib/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# SFML libraries and configuration
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.pdb
+
+# IDE-specific files (for example, if using CLion or Visual Studio)
+# CLion
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio
+.vscode/
+.vs/
+*.vcxproj
+*.vcxproj.user
+*.vcxproj.filters
+*.sln
+*.suo
+*.ncb
+*.user
+*.psess
+*.sdf
+*.opensdf
+*.VC.db
+
+# Temporary files and logs
+*.log
+*.temp
+*.tmp
+*.swp
+*~
+*.pid
+*.seed
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
